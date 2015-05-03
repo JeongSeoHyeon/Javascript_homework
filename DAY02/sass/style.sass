@@ -1,0 +1,18 @@
+@import "susy"
+@import "compass"
+body, div
+	margin: 0
+	padding: 0
+//bg-sizw mixin
+=bgSize
+	background-size: cover
+	
+.mobile
+	background: image-url('bg_01.jpg') no-repeat
+	+bgSize
+.tablet
+	background: image-url('bg_02.jpg') no-repeat
+	+bgSize
+.desktop
+	background: image-url('bg_03.jpg') no-repeat
+	+bgSize

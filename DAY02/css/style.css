@@ -1,0 +1,19 @@
+body, div {
+  margin: 0;
+  padding: 0;
+}
+
+.mobile {
+  background: url('../images/bg_01.jpg?1430578541') no-repeat;
+  background-size: cover;
+}
+
+.tablet {
+  background: url('../images/bg_02.jpg?1430578488') no-repeat;
+  background-size: cover;
+}
+
+.desktop {
+  background: url('../images/bg_03.jpg?1430578397') no-repeat;
+  background-size: cover;
+}
